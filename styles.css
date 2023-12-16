@@ -3,35 +3,31 @@ html {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+.border-5px {
+  border: 5px solid rgb(158, 122, 187);
+}
 main {
   color: rgb(158, 122, 187);
 }
-
 header {
   color: rgb(173, 132, 206);
 }
-
 #home {
   background-color: rgb(13, 13, 14);
 }
-
 ul {
-  border: solid 5px;
+  
   padding: 5px;
   margin: 5px;
- 
-
-
 .bg {
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://plus.unsplash.com/premium_photo-1681826495246-aac523b9461f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url(“https://plus.unsplash.com/premium_photo-1681826495246-aac523b9461f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D”);
 }
 .wrapper {
-  align-items: center; 
+  align-items: center;
   height: 100%;
   width: 100%;
   justify-content: center;
@@ -40,17 +36,12 @@ ul {
   background-color: rgba(0, 0, 0, 0.5);
   color: rgb(160, 130, 231);
 }
-
 .m-2 {
   padding: 5px;
   width: 400px;
+  height: 400px;
 }
-
-.Kupcakes {
+.kookies {
   padding: 10px;
+  border: 5px solid;
 }
-
-.navbar1
- {
-            border: none !important;
-        } 
